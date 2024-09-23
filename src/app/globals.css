@@ -5,6 +5,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --task-background:#0a53be;
+  --task-color:#ffffff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -25,3 +27,19 @@ body {
     text-wrap: balance;
   }
 }
+
+
+.task-header, .task-create button{
+  background: var(--task-background);
+  color: var(--task-color);
+}
+
+.task-create{
+  color:#0a0a0a;
+  margin: 10px;
+}
+
+.task-create Select, .task-create button {
+  margin-left: 10px;
+}
+
